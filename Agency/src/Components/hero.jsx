@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 // React JS version (no TypeScript) of the hero with scroll-animated video
-export default function MZMediaHero() {
+export default function Hero() {
   const navLinks = [
     { label: "Review", href: "#review" },
     { label: "Work", href: "#work" },
