@@ -1,26 +1,13 @@
-
-import './App.css';
-
-import { createBrowserRouter, Route, BrowserRouter as Router, RouterProvider, Routes } from 'react-router-dom';
-import Hero from './Components/hero';
-
-
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <AppLayout />,
-    children: [
-      { path: '/', element: <Hero /> },
-    ]
-  }]
-);
-
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <RouterProvider router={router} />
-
+    <div className="bg-black text-white min-h-screen">
+      <Navbar />
+      <Hero />
+      {/* Add more sections here like CaseStudy, Work, Process */}
+    </div>
   );
 }
 
