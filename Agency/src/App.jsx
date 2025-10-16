@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import UpgradeStatsSectionFinal from "./components/UpgradeStatsSectionFinal";
+import TestimonialsReelsSection from "./components/TestimonialsReelsSection";
 
 
 
@@ -25,6 +26,8 @@ return (
 
 {/* UPGRADE STATS */}
 <UpgradeStatsSectionFinal />
+{/* TESTIMONIALS REELS */}
+{ <TestimonialsReelsSection/> }
 
 </div>
  );
