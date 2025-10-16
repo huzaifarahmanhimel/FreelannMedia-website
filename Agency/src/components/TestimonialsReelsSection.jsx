@@ -77,7 +77,7 @@ export default function TestimonialsReelsSection() {
 
   return (
     <section className="relative bg-black text-white overflow-hidden">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-16">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-14">
         <p className="text-center text-xs tracking-[0.18em] text-white/60">CLIENT TESTIMONIALS</p>
         <h2 className="mt-2 text-center font-extrabold tracking-tight leading-tight text-[7vw] sm:text-3xl md:text-4xl">
           <span className="text-white/80">Hear What They’re</span>
@@ -85,30 +85,30 @@ export default function TestimonialsReelsSection() {
           <span className="text-white">Saying About Us</span>
         </h2>
 
-        <div className="relative mt-10 sm:mt-14 flex items-center justify-center">
+        <div className="relative mt-8 sm:mt-12 flex items-center justify-center">
           <button
             onClick={prev}
             aria-label="Previous testimonial"
-            className="absolute left-2 sm:left-6 z-10 h-10 w-10 sm:h-12 sm:w-12 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-center backdrop-blur-md"
+            className="absolute left-4 sm:left-10 z-10 h-12 w-12 sm:h-14 sm:w-14 rounded-full bg-white/10 hover:bg-white/20 border border-white/10 flex items-center justify-center backdrop-blur-md transition-all"
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 19l-7-7 7-7" stroke="white" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M15 19l-7-7 7-7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
           </button>
 
           <button
             onClick={next}
             aria-label="Next testimonial"
-            className="absolute right-2 sm:right-6 z-10 h-10 w-10 sm:h-12 sm:w-12 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-center backdrop-blur-md"
+            className="absolute right-4 sm:right-10 z-10 h-12 w-12 sm:h-14 sm:w-14 rounded-full bg-white/10 hover:bg-white/20 border border-white/10 flex items-center justify-center backdrop-blur-md transition-all"
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="white" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
           </button>
 
           <div
-            className="relative w-[70vw] max-w-[280px] sm:max-w-[340px] md:max-w-[380px] aspect-[9/16] rounded-2xl p-[1px] bg-white/10 shadow-xl overflow-hidden"
+            className="relative w-[55vw] max-w-[200px] sm:max-w-[260px] md:max-w-[300px] aspect-[9/14] rounded-lg p-[1px] bg-white/10 shadow-lg overflow-hidden"
             onTouchStart={onTouchStart}
             onTouchEnd={onTouchEnd}
           >
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-b from-white/5 to-white/0 pointer-events-none" />
-            <div className="h-full w-full rounded-2xl overflow-hidden bg-black/60">
+            <div className="absolute inset-0 rounded-lg bg-gradient-to-b from-white/5 to-white/0 pointer-events-none" />
+            <div className="h-full w-full rounded-lg overflow-hidden bg-black/60">
               <AnimatePresence initial={false} custom={dirRef.current}>
                 <Slide
                   key={index}
@@ -127,7 +127,7 @@ export default function TestimonialsReelsSection() {
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="mx-auto mt-6 sm:mt-8 max-w-3xl text-center text-xl sm:text-2xl md:text-3xl font-semibold text-white"
+          className="mx-auto mt-5 sm:mt-7 max-w-2xl text-center text-lg sm:text-xl md:text-2xl font-semibold text-white"
         >
           “{items[index].quote}”
         </motion.blockquote>
@@ -137,11 +137,11 @@ export default function TestimonialsReelsSection() {
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05, ease: "easeOut" }}
-          className="mt-4 flex items-center justify-center gap-3 text-left"
+          className="mt-3 flex items-center justify-center gap-3 text-left"
         >
-          <img src={items[index].avatar} alt={items[index].author} className="h-10 w-10 rounded-full object-cover" />
+          <img src={items[index].avatar} alt={items[index].author} className="h-8 w-8 rounded-full object-cover" />
           <div>
-            <p className="text-white text-base font-semibold">{items[index].author}</p>
+            <p className="text-white text-sm font-semibold">{items[index].author}</p>
             <p className="text-white/60 text-xs sm:text-sm">{items[index].role}</p>
           </div>
         </motion.div>
@@ -180,9 +180,9 @@ function Slide({ src, direction, playing, onTogglePlay }) {
       <button
         onClick={onTogglePlay}
         aria-label={playing ? "Pause video" : "Play video"}
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-xl bg-purple-700/90 hover:bg-purple-700 px-4 py-3 shadow-lg"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-purple-700/90 hover:bg-purple-700 px-3 py-2 shadow-md"
       >
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
           {playing ? <path d="M10 8h2v8h-2zM14 8h2v8h-2z" fill="white" /> : <path d="M8 5v14l11-7-11-7z" fill="white" />}
         </svg>
       </button>
