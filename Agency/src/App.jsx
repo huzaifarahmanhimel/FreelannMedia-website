@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import UpgradeStatsSectionFinal from "./components/UpgradeStatsSectionFinal";
 import TestimonialsReelsSection from "./components/TestimonialsReelsSection";
+import Work from "./components/Work";
+import CaseStudies from "./components/CaseStudies";
 
 
 
@@ -28,6 +30,12 @@ return (
 <UpgradeStatsSectionFinal />
 {/* TESTIMONIALS REELS */}
 { <TestimonialsReelsSection/> }
+
+{/* WORK */}
+<Work />
+
+{/* CASE STUDIES */}
+<CaseStudies />
 
 </div>
  );
