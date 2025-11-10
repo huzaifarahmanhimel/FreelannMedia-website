@@ -5,6 +5,7 @@ import UpgradeStatsSectionFinal from "./components/UpgradeStatsSectionFinal";
 import TestimonialsReelsSection from "./components/TestimonialsReelsSection";
 import Work from "./components/Work";
 import CaseStudies from "./components/CaseStudies";
+import CoreServicesWithSliders from "./components/CoreServicesWithSliders";
 
 
 
@@ -36,6 +37,8 @@ return (
 
 {/* CASE STUDIES */}
 <CaseStudies />
+{/* CORE SERVICES WITH SLIDERS */}
+<CoreServicesWithSliders />
 
 </div>
  );
