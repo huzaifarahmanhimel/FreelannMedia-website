@@ -7,6 +7,8 @@ import Work from "./components/Work";
 import CaseStudies from "./components/CaseStudies";
 import CoreServicesWithSliders from "./components/CoreServicesWithSliders";
 import ClientFeedbackSlider from "./components/ClientFeedbackSlider";
+import FAQSection from "./components/FAQSection";
+import Footer from "./components/Footer";
 
 
 
@@ -42,6 +44,11 @@ return (
 <CoreServicesWithSliders />
 {/* CLIENT FEEDBACK SLIDER */}
 <ClientFeedbackSlider/>
+{/* FAQ SECTION */}
+<FAQSection/>
+{/* FOOTER */}
+<Footer/>
+
 
 
 </div>
