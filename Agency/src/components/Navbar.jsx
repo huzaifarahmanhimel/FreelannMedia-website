@@ -23,8 +23,8 @@ export default function Navbar() {
       <div className="flex items-center justify-between px-5 py-3 rounded-xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-lg">
         {/* Logo */}
         <a href="#" className="flex items-center space-x-2">
-          <div className="flex items-center justify-center bg-white text-black font-bold rounded-md w-7 h-7 text-sm">M</div>
-          <span className="font-medium text-base tracking-tight text-white">MZ MEDIA</span>
+          <div className="flex items-center justify-center bg-yellow-400 text-black font-bold rounded-md w-7 h-7 text-sm">F</div>
+          <span className="font-medium text-base tracking-tight text-yellow-400">FREELANN MEDIA</span>
         </a>
 
         {/* Desktop links */}
@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <a
             href="#book"
-            className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 transition text-white px-4 py-1.5 rounded-lg font-semibold text-sm shadow-md"
+            className="inline-flex items-center justify-center bg-yellow-400 hover:bg-yellow-500 transition text-black px-4 py-1.5 rounded-lg font-semibold text-sm shadow-md"
           >
             Book A Call
           </a>

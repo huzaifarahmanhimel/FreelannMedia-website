@@ -31,9 +31,9 @@ export default function HeroSection() {
         <div className="mx-auto max-w-6xl px-5 sm:px-8">
           {/* Headline */}
           <h1 className="text-center font-extrabold leading-tight tracking-tight">
-            <span className="block text-[9vw] leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">Get <span className="text-gray-300">More Leads</span></span>
+            <span className="block text-[9vw] leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">Turn <span className="text-yellow-200">Your Content</span></span>
             <span className="block text-[9vw] leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">
-              Using <span className="text-white">Quality Video Content</span>
+              Into <span className="text-white">a Revenue Engine</span>
             </span>
           </h1>
 
@@ -51,7 +51,7 @@ export default function HeroSection() {
               <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Client 4" className="hidden sm:block w-10 h-10 rounded-full border-2 border-black" />
             </div>
             <div className="text-gray-400 text-sm sm:text-base text-center sm:text-left">
-              Loved by <span className="text-white font-semibold">500+ Businesses</span> worldwide
+              Loved by <span className="text-white font-semibold">250+ Businesses</span> worldwide
               <span className="block text-xs sm:text-sm">Our clients speak for us</span>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function HeroSection() {
           <div className="mt-8 sm:mt-10 flex justify-center">
             <a
               href="#book"
-              className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-5 py-3 sm:px-6 sm:py-3.5 text-sm sm:text-base font-semibold text-white shadow-lg hover:bg-blue-700 transition"
+              className="inline-flex items-center justify-center rounded-xl bg-yellow-400 px-5 py-3 sm:px-6 sm:py-3.5 text-sm sm:text-base font-semibold text-black shadow-lg hover:bg-yellow-500 transition"
             >
               Book A Call
             </a>
@@ -86,7 +86,7 @@ export default function HeroSection() {
                 preload="metadata"
                 className="rounded-2xl border border-white/10 shadow-lg w-full"
               >
-                <source src="/your-video.mp4" type="video/mp4" />
+                <source src="https://www.youtube.com/watch?v=jJQTsmrGhqc" type="video/mp4" />
               </video>
 
               {/* Overlay Animation */}

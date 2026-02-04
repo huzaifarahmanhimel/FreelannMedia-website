@@ -84,7 +84,7 @@ export default function CaseStudies() {
                 className="h-10 w-10 rounded-full object-cover"
               />
               <div>
-                <p className="text-white font-semibold">Neel Nafis</p>
+                <p className="text-white font-semibold">Kyle Blackwell</p>
                 <p className="text-white/60 text-sm">Founder</p>
               </div>
             </motion.div>
