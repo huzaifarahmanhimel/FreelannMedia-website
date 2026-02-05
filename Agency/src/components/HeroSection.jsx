@@ -31,7 +31,7 @@ export default function HeroSection() {
         <div className="mx-auto max-w-6xl px-5 sm:px-8">
           {/* Headline */}
           <h1 className="text-center font-extrabold leading-tight tracking-tight">
-            <span className="block text-[9vw] leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">Turn <span className="text-yellow-200">Your Content</span></span>
+            <span className="block text-[9vw] leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">Turn <span className="text-yellow-300">Your Content</span></span>
             <span className="block text-[9vw] leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">
               Into <span className="text-white">a Revenue Engine</span>
             </span>

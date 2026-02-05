@@ -7,12 +7,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-center justify-between gap-8 md:gap-10">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="h-12 w-12 bg-white rounded-xl flex items-center justify-center">
+          <div className="h-12 w-12 bg-yellow-300 rounded-xl flex items-center justify-center">
             {/* replace with your logo image/svg */}
-            <span className="text-black text-2xl font-bold">M</span>
+            <span className="text-black text-2xl font-bold">F</span>
           </div>
-          <span className="text-xl sm:text-2xl font-semibold tracking-wide">
-            MZ MEDIA
+          <span className="text-xl sm:text-2xl text-yellow-300 font-semibold tracking-wide">
+            FREELANN MEDIA
           </span>
         </div>
 
